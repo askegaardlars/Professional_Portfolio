@@ -1,0 +1,36 @@
+#- Text: #Program Cost: $1000
+#    style:
+#      marginTop: 80
+#      marginLeft: 20
+#      fontSize: 30
+#      color: blue
+#    index: {index1} #1008
+- View:
+    style:
+      marginTop: -130
+      marginLeft: 30
+      backgroundColor: rgb(230, 230, 230)
+      width: 700
+      height: 100
+    children:
+      - Text: #Program GE's
+          style:
+            marginTop: 27
+            marginLeft: 390
+            fontSize: 30
+            color: black
+          index: {index2} #1064
+      - Text: #Program Cost
+          style:
+            marginTop: -40
+            marginLeft: 40
+            fontSize: 30
+            color: black
+          index: {index1} #1008
+
+#      - Text: #|..|
+#          id: amount{obj}
+#          style:
+#            fontSize: 30
+#            color: black
+#          index: 130
